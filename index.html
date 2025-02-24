@@ -3,116 +3,137 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tanner Lunn's Digital Resume</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 40px;
-            padding: 20px;
-            background-color: #f4f4f4;
-        }
-        .container {
-            max-width: 800px;
-            background: white;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        h1, h2 {
-            color: #333;
-        }
-        ul {
-            list-style-type: square;
-            margin-left: 20px;
-        }
-        .section {
-            margin-bottom: 20px;
-        }
-        img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 5px;
-        }
-    </style>
+    <title>Resume</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,300,700" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css"> <!-- Make sure this file exists -->
 </head>
 <body>
     <div class="container">
-        <h1>Tanner Lunn's Digital Resume</h1>
-        <img src="1726084650856.jfif" alt="Mississippi Power Internship" />
-        
-        <div class="section">
-            <h2>Executive Summary</h2>
-            <p>I am a Computer Engineering student at Mississippi State University, graduating in December 2025. I have experience in power distribution, substations, and software development. I am passionate about problem-solving, technology, and leadership. My goal is to contribute to innovative projects that improve efficiency and safety.</p>
-        </div>
-        
-        <div class="section">
-            <h2>Contact Information</h2>
-            <p>Email: tannerlunn2003@gmail.com</p>
-            <p>LinkedIn: <a href="https://linkedin.com/in/tannerl14">linkedin.com/in/tannerl14</a></p>
-            <p>Phone: 702-682-2123</p>
-        </div>
-        
-        <div class="section">
-            <h2>Education</h2>
-            <p><strong>Mississippi State University</strong></p>
-            <p>Bachelor of Science, Computer Engineering (Expected December 2025)</p>
-            <p>Overall GPA: 3.65/4.00</p>
+        <div class="header">
+            <div class="full-name">
+                <span class="first-name">John</span> 
+                <span class="last-name">Doe</span>
+            </div>
+            <div class="contact-info">
+                <span class="email">Email: </span>
+                <span class="email-val">john.doe@gmail.com</span>
+                <span class="separator"></span>
+                <span class="phone">Phone: </span>
+                <span class="phone-val">111-222-3333</span>
+            </div>
+            
+            <div class="about">
+                <span class="position">Front-End Developer </span>
+                <span class="desc">
+                    I am a front-end developer with more than 3 years of experience writing HTML, CSS, and JavaScript. I'm motivated, result-focused, and seeking a successful team-oriented company with opportunities to grow.
+                </span>
+            </div>
         </div>
 
-        <div class="section">
-            <h2>Experience</h2>
-            <h3>Mississippi Power Company – Distribution Engineer Intern (May–August 2024)</h3>
-            <ul>
-                <li>Engineered residential and commercial work orders.</li>
-                <li>Contributed to system improvements like transformer replacements.</li>
-                <li>Helped in future industry developments like tripsavers and concrete poles.</li>
-                <li>Engaged in community service projects.</li>
-            </ul>
-            <h3>Mississippi Power Company – Substations Engineer Intern (May–August 2023)</h3>
-            <ul>
-                <li>Created an inventory application for 300+ SF6 gas bottles.</li>
-                <li>Maintained databases for substation equipment.</li>
-                <li>Supported transformer replacement decisions.</li>
-            </ul>
-            <h3>Mary Mahoney’s Old French House – Server/Busser (June 2021–August 2022)</h3>
-            <ul>
-                <li>Provided excellent customer service.</li>
-            </ul>
-        </div>
-        
-        <div class="section">
-            <h2>Leadership & Activities</h2>
-            <h3>Pi Kappa Alpha Gamma Theta - Vice President</h3>
-            <ul>
-                <li>Organized philanthropies, raising $20,000 for charity.</li>
-                <li>Accumulated 2,000+ community service hours.</li>
-            </ul>
-            <h3>Maroon VIP – Campus Tour Guide</h3>
-            <ul>
-                <li>Conducted engaging university tours.</li>
-            </ul>
-            <h3>Catholic Campus Ministry - Active Member</h3>
-            <ul>
-                <li>Active member since August 2021.</li>
-            </ul>
-        </div>
-        
-        <div class="section">
-            <h2>Projects</h2>
-            <h3>Multi-Core CPU Scheduling Program</h3>
-            <p>Developed a C++ simulation for scheduling algorithms (FCFS and SJF) on Linux.</p>
-            <h3>SafeShower Assist</h3>
-            <p>Developed an electronic device for temperature indication to assist impaired individuals.</p>
-        </div>
-        
-        <div class="section">
-            <h2>Skills</h2>
-            <ul>
-                <li>MATLAB, Python, C/C++</li>
-                <li>Linux, Microcontrollers</li>
-                <li>Microsoft Excel, FPGA Programming</li>
-                <li>Verilog, Cybersecurity</li>
-            </ul>
+        <div class="details">
+            <div class="section">
+                <div class="section__title">Experience</div>
+                <div class="section__list">
+                    <div class="section__list-item">
+                        <div class="left">
+                            <div class="name">KlowdBox</div>
+                            <div class="addr">San Francisco, CA</div>
+                            <div class="duration">Jan 2011 - Feb 2015</div>
+                        </div>
+                        <div class="right">
+                            <div class="name">Front-End Developer</div>
+                            <div class="desc">Worked on UI/UX improvements and JavaScript-based features.</div>
+                        </div>
+                    </div>
+
+                    <div class="section__list-item">
+                        <div class="left">
+                            <div class="name">Akount</div>
+                            <div class="addr">Santa Monica, CA</div>
+                            <div class="duration">Jan 2011 - Feb 2015</div>
+                        </div>
+                        <div class="right">
+                            <div class="name">Front-End Developer</div>
+                            <div class="desc">Developed responsive layouts and optimized page load times.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="section__title">Education</div>
+                <div class="section__list">
+                    <div class="section__list-item">
+                        <div class="left">
+                            <div class="name">Sample Institute of Technology</div>
+                            <div class="addr">San Francisco, CA</div>
+                            <div class="duration">Jan 2011 - Feb 2015</div>
+                        </div>
+                        <div class="right">
+                            <div class="name">B.S. in Computer Science</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="section__title">Projects</div>
+                <div class="section__list">
+                    <div class="section__list-item">
+                        <div class="name">DSP</div>
+                        <div class="text">
+                            Developed a digital signal processing visualization tool using JavaScript and CSS.
+                        </div>
+                    </div>
+                    <div class="section__list-item">
+                        <div class="name">Portfolio Website</div>
+                        <div class="text">
+                            Built a responsive personal portfolio showcasing my projects. 
+                            <a href="/portfolio">View Here</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="section__title">Skills</div>
+                <div class="skills">
+                    <div class="skills__item">
+                        <div class="left">
+                            <div class="name">JavaScript</div>
+                        </div>
+                        <div class="right">
+                            <input id="js1" type="checkbox" checked>
+                            <label for="js1"></label>
+                            <input id="js2" type="checkbox" checked>
+                            <label for="js2"></label>
+                            <input id="js3" type="checkbox">
+                            <label for="js3"></label>
+                        </div>
+                    </div>
+
+                    <div class="skills__item">
+                        <div class="left">
+                            <div class="name">CSS</div>
+                        </div>
+                        <div class="right">
+                            <input id="css1" type="checkbox" checked>
+                            <label for="css1"></label>
+                            <input id="css2" type="checkbox" checked>
+                            <label for="css2"></label>
+                            <input id="css3" type="checkbox">
+                            <label for="css3"></label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="section__title">Interests</div>
+                <div class="section__list">
+                    <div class="section__list-item">Football, programming.</div>
+                </div>
+            </div>
         </div>
     </div>
 </body>
